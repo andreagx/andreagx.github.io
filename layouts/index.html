@@ -36,13 +36,16 @@
     <h1>{{ site.Title }}</h1>
     <p>{{ site.Params.description }}</p>
   </header>
-  <section class="editorial-grid" aria-label="Letture dall’archivio Blogger">
+  {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
+  <section class="editorial-grid" aria-label="Ultimo articolo e letture dall’archivio">
+    {{ range first 1 $posts }}
     <article class="editorial-feature">
-      <div class="editorial-meta">In evidenza · <time datetime="2026-11-18">18 novembre 2026</time></div>
-      <h2>Microsoft Ignite 2026</h2>
-      <p>Le novità per Windows Server, Microsoft 365, Entra, Intune e Defender, viste dalla prospettiva degli amministratori IT.</p>
-      <a class="editorial-link" href="{{ relref . "/posts/microsoft-ignite-2026-novita-windows-server-intune-entra-defender" }}">Leggi l’articolo</a>
+      <div class="editorial-meta">In evidenza · <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></div>
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Description | default (.Summary | plainify) }}</p>
+      <a class="editorial-link" href="{{ .RelPermalink }}">Leggi l’articolo</a>
     </article>
+    {{ end }}
     <div class="editorial-side">
       <article class="editorial-card">
         <div class="editorial-meta">Identità · <time datetime="2026-08-24">24 agosto 2026</time></div>
@@ -66,7 +69,7 @@
       <li><a href="https://andreagx.blogspot.com/">Tutto l’archivio ↗</a></li>
     </ul>
   </nav>
-  {{ with where site.RegularPages "Section" "posts" }}
+  {{ with $posts }}
   <section class="editorial-posts" aria-labelledby="editorial-posts-title">
     <h2 id="editorial-posts-title">Ultimi articoli sul sito</h2>
     <ul>
