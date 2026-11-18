@@ -4,7 +4,7 @@
 .editorial-home { --line: var(--border); --accent: #0f766e; }
 .dark .editorial-home { --accent: #74dfca; --line: #42484a; }
 .editorial-intro { padding: 20px 0 27px; }
-.editorial-intro h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02; letter-spacing: -.06em; }
+.editorial-intro h1 { font-size: clamp(1.65rem, 3.5vw, 2.5rem); line-height: 1.15; letter-spacing: -.035em; }
 .editorial-intro p { color: var(--secondary); margin-top: .65rem; }
 .editorial-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 16px; }
 .editorial-side { display: grid; gap: 16px; }
@@ -34,7 +34,7 @@
 <div class="editorial-home">
   <header class="editorial-intro">
     <h1>{{ site.Title }}</h1>
-    <p>Il blog di <a href="{{ relref . "/chi-sono" }}"><strong>{{ site.Params.author }}</strong></a> · IT Architect</p>
+    <p>Il blog di <a href="{{ relref . "/chi-sono" }}"><strong>{{ site.Params.author }}</strong></a></p>
     <p>{{ site.Params.description }}</p>
   </header>
   {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}

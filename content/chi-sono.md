@@ -1,10 +1,10 @@
 ---
 title: Chi sono
-description: "Andrea Gallazzi, IT Architect: progettazione e integrazione di sistemi dal 1995, tecnologie Microsoft, PowerShell e community."
+description: "Andrea Gallazzi: progettazione e integrazione di sistemi dal 1995, tecnologie Microsoft, PowerShell e community."
 ---
 ## Andrea Gallazzi
 
-**IT Architect · Progettazione e integrazione di sistemi · Nell’IT dal 1995**
+**Progettazione e integrazione di sistemi · Nell’IT dal 1995**
 
 Lavoro nell’information technology dal 1995 e mi occupo principalmente di progettazione e integrazione di sistemi. Nel mio percorso ho approfondito le tecnologie di comunicazione unificata e di virtualizzazione, lavorando con ambienti Microsoft e sistemi Unix-like.
 
