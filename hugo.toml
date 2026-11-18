@@ -1,7 +1,7 @@
 baseURL = "https://andreagx.github.io/"
 languageCode = "it-IT"
 defaultContentLanguage = "it"
-title = "to the information technology... and beyond!"
+title = "To IT… and beyond!"
 theme = "PaperMod"
 enableRobotsTXT = true
 timeZone = "Europe/Rome"
@@ -17,7 +17,7 @@ mainSections = ["posts"]
 cloudflareToken = ""
 
 [params.homeInfoParams]
-Title = "to the information technology... and beyond!"
+Title = "To IT… and beyond!"
 Content = "Approfondimenti su automazione, sicurezza e gestione degli ambienti IT. Gli articoli già pubblicati si trovano nell’[archivio Blogger](https://andreagx.blogspot.com/)."
 
 [[menu.main]]
