@@ -27,6 +27,9 @@ Il titolo **“to the information technology... and beyond!”** accompagna ques
 
 ## Link e aggiornamenti
 
+- [Il mio profilo LinkedIn](https://it.linkedin.com/in/andreagx)
 - [IQUAD](https://www.iquad.it/)
 - [Tutti gli articoli del nuovo blog](/posts/)
+
+{{< figure src="/images/brand/iquad.png" alt="IQUAD" link="https://www.iquad.it/" width="200" class="company-logo" >}}
 

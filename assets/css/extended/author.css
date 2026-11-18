@@ -1,0 +1,5 @@
+.author-links { display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 16px; font-size: .9rem; }
+.author-links > a:first-child { text-decoration: underline; text-underline-offset: 3px; }
+.iquad-logo { display: inline-flex; padding: 7px 10px; background: #fff; border-radius: 6px; }
+.iquad-logo img { display: block; width: 120px; height: auto; }
+.post-content .company-logo img { box-sizing: content-box; width: 200px; max-width: calc(100% - 24px); height: auto; padding: 12px; background: #fff; border-radius: 6px; }
