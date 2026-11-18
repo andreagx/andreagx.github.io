@@ -13,6 +13,8 @@ home = ["HTML", "RSS", "JSON"]
 description = "Note tecniche su Microsoft 365, Windows Server, Azure e infrastrutture IT."
 author = "Andrea Gallazzi"
 mainSections = ["posts"]
+# Valorizzato in produzione dalla variabile Actions CLOUDFLARE_WEB_ANALYTICS_TOKEN.
+cloudflareToken = ""
 
 [params.homeInfoParams]
 Title = "Andrea Gallazzi"
