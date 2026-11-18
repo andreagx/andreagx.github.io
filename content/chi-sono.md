@@ -6,21 +6,20 @@ description: "Andrea Gallazzi: progettazione e integrazione di sistemi dal 1995,
 
 **Progettazione e integrazione di sistemi · Nell’IT dal 1995**
 
-Lavoro nell’information technology dal 1995 e mi occupo principalmente di progettazione e integrazione di sistemi. Nel mio percorso ho approfondito le tecnologie di comunicazione unificata e di virtualizzazione, lavorando con ambienti Microsoft e sistemi Unix-like.
+Lavoro nell’information technology dal 1995 e mi occupo principalmente di progettazione e integrazione di sistemi. Nel mio percorso ho approfondito le tecnologie di comunicazione unificata e di virtualizzazione, lavorando con ambienti Microsoft e sistemi Unix-like in aggiunta alle moderne infrastrutture Cloud e AI.
 
 Sono tra i fondatori di **IQUAD**, azienda impegnata nel settore IT. PowerShell, .NET e robotica sono alcune delle passioni che accompagnano il mio lavoro e la mia curiosità per la tecnologia.
 
 ## Esperienza e community
 
-Ho ricevuto il riconoscimento **Microsoft MVP nella categoria Exchange Server** e ho proseguito il legame con questa community attraverso il programma **MVP Reconnect**.
+Ho ricevuto il riconoscimento **Microsoft MVP nella categoria Exchange Server** e ho proseguito il legame con questa community attraverso il programma **MVP Reconnect** oltre a scrivere per WindowServer.it
 
-Nel corso del mio percorso professionale ho conseguito diverse certificazioni, tra cui **Microsoft Certified IT Professional: Enterprise Messaging Administrator** e **MCTS: Server Virtualization**.
-
+Nel corso del mio percorso professionale ho conseguito diverse certificazioni.
 La community è uno dei miei interessi di sempre: questo blog è lo spazio in cui condivido approfondimenti tecnici, esperienze e spunti utili a chi lavora con le infrastrutture IT.
 
 ## Cosa trovi nel blog
 
-Scrivo di **Microsoft 365, Windows Server, Azure, Entra ID, Intune e sicurezza**, con attenzione alla gestione quotidiana dei sistemi, all’automazione e all’evoluzione delle infrastrutture.
+Scrivo di **Microsoft 365, Windows Server, Azure, Entra ID, Intune, Sicurezza e naturalmente AI**, con attenzione alla gestione quotidiana dei sistemi, all’automazione e all’evoluzione delle infrastrutture.
 
 Il taglio è pratico: capire cosa cambia, quali prerequisiti verificare e quale impatto possono avere le nuove tecnologie sul lavoro degli amministratori IT.
 
@@ -29,6 +28,5 @@ Il titolo **“to the information technology... and beyond!”** accompagna ques
 ## Link e aggiornamenti
 
 - [IQUAD](https://www.iquad.it/)
-- [Il mio profilo Blogger](https://www.blogger.com/profile/01493791203840985229)
 - [Tutti gli articoli del nuovo blog](/posts/)
 - [Feed RSS](/index.xml)
