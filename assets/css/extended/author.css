@@ -1,18 +1,7 @@
-.editorial-intro { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 24px; align-items: center; }
-.editorial-intro h1, .editorial-intro p { grid-column: 1; }
-.author-links { grid-column: 2; grid-row: 1 / 3; display: flex; flex-direction: column; align-items: center; gap: 14px; }
-.linkedin-icon { display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 8px; color: #fff; background: #0a66c2; }
-.linkedin-icon svg { width: 28px; height: 28px; }
-.linkedin-icon:hover { background: #004182; }
-.iquad-logo { display: inline-flex; padding: 7px 10px; background: #fff; border-radius: 6px; }
-.iquad-logo img { display: block; width: 120px; height: auto; }
 .post-content .company-logo img { box-sizing: content-box; width: 200px; max-width: calc(100% - 24px); height: auto; padding: 12px; background: #fff; border-radius: 6px; }
 .nav { max-width: calc(1140px + var(--gap) * 2); }
 .logo { min-width: 0; }
 .logo > a { font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.25; padding-block: 14px; }
 @media (max-width: 480px) {
-  .editorial-intro { column-gap: 12px; }
-  .iquad-logo img { width: 80px; }
-  .iquad-logo { padding: 6px; }
   .logo > a { font-size: 1.5rem; }
 }

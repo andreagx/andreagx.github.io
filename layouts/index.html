@@ -35,10 +35,6 @@
   <header class="editorial-intro">
     <h1>Il blog di <a href="{{ relref . "/chi-sono" }}"><strong>{{ site.Params.author }}</strong></a></h1>
     <p>{{ site.Params.description }}</p>
-    <div class="author-links">
-      <a class="linkedin-icon" href="https://it.linkedin.com/in/andreagx" rel="me" aria-label="Profilo LinkedIn di Andrea Gallazzi" title="LinkedIn">{{ partial "svg.html" (dict "name" "linkedin") }}</a>
-      <a class="iquad-logo" href="https://www.iquad.it/" aria-label="Visita il sito IQUAD"><img src="/images/brand/iquad.png" alt="IQUAD" width="120" height="36"></a>
-    </div>
   </header>
   {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
   <section class="editorial-grid" aria-label="Articoli più recenti">
