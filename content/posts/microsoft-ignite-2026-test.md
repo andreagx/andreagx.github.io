@@ -4,11 +4,19 @@ date: 2026-11-18
 description: "Una sintesi dal post originale su Blogger, da Intune per Windows Server alla governance degli agenti AI."
 tags: ["Microsoft Ignite", "Windows Server", "Microsoft Entra", "Intune"]
 draft: false
+cover:
+  image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&h=660&q=85"
+  alt: "Corridoio di un data center con rack di server"
+  caption: "Foto illustrativa · Unsplash"
 ---
 
 *Post di test per il nuovo blog.*
 
 Tra gli annunci di Microsoft Ignite 2026, tre meritano attenzione per chi gestisce ambienti Microsoft. Toccano attività concrete: amministrare i server, recuperare oggetti di identità e tenere sotto controllo gli agenti AI.
+
+![Apparati e cavi di rete](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1000&h=550&q=85)
+
+*Foto illustrativa · Unsplash*
 
 ## Tre annunci da seguire
 
