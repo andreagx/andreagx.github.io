@@ -10,7 +10,7 @@ timeZone = "Europe/Rome"
 home = ["HTML", "RSS", "JSON"]
 
 [params]
-description = "Note tecniche su Microsoft 365, Windows Server, Azure e infrastrutture IT."
+description = "Cloud, agenti AI e tecnologie Microsoft: approfondimenti su automazione, sicurezza e gestione degli ambienti IT."
 author = "Andrea Gallazzi"
 mainSections = ["posts"]
 # Valorizzato in produzione dalla variabile Actions CLOUDFLARE_WEB_ANALYTICS_TOKEN.
@@ -18,7 +18,7 @@ cloudflareToken = ""
 
 [params.homeInfoParams]
 Title = "to the information technology... and beyond!"
-Content = "Note tecniche su Microsoft 365, Windows Server, Azure e infrastrutture IT. Gli articoli già pubblicati si trovano nell’[archivio Blogger](https://andreagx.blogspot.com/)."
+Content = "Cloud, agenti AI e tecnologie Microsoft: approfondimenti su automazione, sicurezza e gestione degli ambienti IT. Gli articoli già pubblicati si trovano nell’[archivio Blogger](https://andreagx.blogspot.com/)."
 
 [[menu.main]]
 name = "Cerca"
