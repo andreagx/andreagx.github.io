@@ -12,9 +12,8 @@ ShowToc: true
 TocOpen: false
 ShowReadingTime: true
 cover:
-  image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&h=660&q=85"
-  alt: "Corridoio di un data center con rack di server"
-  caption: "Foto illustrativa · Unsplash"
+  image: "/images/microsoft-ignite-2026/copertina.png"
+  alt: "Microsoft Ignite: titolo e logo Microsoft su sfondo multicolore"
 ---
 
 *Microsoft Ignite 2026 segna un passaggio importante nell'evoluzione dell'ecosistema Microsoft: gli agenti AI diventano componenti dell'infrastruttura aziendale, mentre identità, sicurezza, gestione degli endpoint e automazione convergono verso un modello di amministrazione sempre più integrato.*
