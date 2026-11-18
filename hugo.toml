@@ -1,0 +1,34 @@
+baseURL = "https://andreagx.github.io/"
+languageCode = "it-IT"
+defaultContentLanguage = "it"
+title = "Andrea Gallazzi"
+theme = "PaperMod"
+enableRobotsTXT = true
+timeZone = "Europe/Rome"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+description = "Note tecniche su Microsoft 365, Windows Server, Azure e infrastrutture IT."
+author = "Andrea Gallazzi"
+mainSections = ["posts"]
+
+[params.homeInfoParams]
+Title = "Andrea Gallazzi"
+Content = "Note tecniche su Microsoft 365, Windows Server, Azure e infrastrutture IT. Gli articoli già pubblicati si trovano nell’[archivio Blogger](https://andreagx.blogspot.com/)."
+
+[[menu.main]]
+name = "Cerca"
+pageRef = "/search"
+weight = 10
+
+[[menu.main]]
+name = "Chi sono"
+pageRef = "/chi-sono"
+weight = 20
+
+[[menu.main]]
+name = "Archivio Blogger"
+url = "https://andreagx.blogspot.com/"
+weight = 30
