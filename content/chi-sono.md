@@ -29,4 +29,4 @@ Il titolo **“to the information technology... and beyond!”** accompagna ques
 
 - [IQUAD](https://www.iquad.it/)
 - [Tutti gli articoli del nuovo blog](/posts/)
-- [Feed RSS](/index.xml)
+
