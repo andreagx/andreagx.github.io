@@ -1,7 +1,7 @@
 baseURL = "https://andreagx.github.io/"
 languageCode = "it-IT"
 defaultContentLanguage = "it"
-title = "Andrea Gallazzi"
+title = "to the information technology... and beyond!"
 theme = "PaperMod"
 enableRobotsTXT = true
 timeZone = "Europe/Rome"
@@ -17,7 +17,7 @@ mainSections = ["posts"]
 cloudflareToken = ""
 
 [params.homeInfoParams]
-Title = "Andrea Gallazzi"
+Title = "to the information technology... and beyond!"
 Content = "Note tecniche su Microsoft 365, Windows Server, Azure e infrastrutture IT. Gli articoli già pubblicati si trovano nell’[archivio Blogger](https://andreagx.blogspot.com/)."
 
 [[menu.main]]
