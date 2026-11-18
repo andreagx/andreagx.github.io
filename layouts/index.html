@@ -34,6 +34,7 @@
 <div class="editorial-home">
   <header class="editorial-intro">
     <h1>{{ site.Title }}</h1>
+    <p>Il blog di <a href="{{ relref . "/chi-sono" }}"><strong>{{ site.Params.author }}</strong></a> · IT Architect</p>
     <p>{{ site.Params.description }}</p>
   </header>
   {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
