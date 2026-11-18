@@ -37,7 +37,7 @@
     <p>{{ site.Params.description }}</p>
   </header>
   {{ $posts := (where site.RegularPages "Section" "posts").ByDate.Reverse }}
-  <section class="editorial-grid" aria-label="Ultimo articolo e letture dall’archivio">
+  <section class="editorial-grid" aria-label="Articoli più recenti">
     {{ range first 1 $posts }}
     <article class="editorial-feature">
       <div class="editorial-meta">In evidenza · <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></div>
@@ -46,18 +46,17 @@
       <a class="editorial-link" href="{{ .RelPermalink }}">Leggi l’articolo</a>
     </article>
     {{ end }}
+    {{ with first 2 (after 1 $posts) }}
     <div class="editorial-side">
+      {{ range . }}
       <article class="editorial-card">
-        <div class="editorial-meta">Identità · <time datetime="2026-08-24">24 agosto 2026</time></div>
-        <h2><a href="https://andreagx.blogspot.com/2026/08/microsoft-entra-cloud-sync-supporto.html">Microsoft Entra Cloud Sync e sincronizzazione dei dispositivi ↗</a></h2>
-        <p>Cosa cambia per chi valuta il passaggio da Entra Connect Sync a Cloud Sync.</p>
+        <div class="editorial-meta">{{ with .Params.categories }}{{ index . 0 }} · {{ end }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time></div>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Description | default (.Summary | plainify) }}</p>
       </article>
-      <article class="editorial-card">
-        <div class="editorial-meta">Microsoft 365 · <time datetime="2025-08-28">28 agosto 2025</time></div>
-        <h2><a href="https://andreagx.blogspot.com/2025/08/exchange-hybrid-la-gestione-cloud-based.html">Exchange Hybrid e l’ultimo server on-premises ↗</a></h2>
-        <p>Come cambia la gestione degli attributi Exchange e cosa verificare prima di dismettere il server.</p>
-      </article>
+      {{ end }}
     </div>
+    {{ end }}
   </section>
   <nav class="editorial-topics" aria-labelledby="editorial-topics-title">
     <h2 id="editorial-topics-title">Argomenti nell’archivio</h2>
