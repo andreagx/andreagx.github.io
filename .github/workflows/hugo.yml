@@ -22,6 +22,8 @@ jobs:
           ref: v8.0
           path: themes/PaperMod
           persist-credentials: false
+      - name: Correggi i riferimenti ai partial di PaperMod v8.0
+        run: sed -i 's@"partials/templates/_funcs/get-page-images"@"templates/_funcs/get-page-images"@g' themes/PaperMod/layouts/partials/templates/{opengraph,twitter_cards}.html
       - name: Installa Hugo
         env:
           HUGO_VERSION: 0.147.9
